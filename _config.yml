@@ -26,7 +26,9 @@ medium_username: 'blog.jamigibbs.com'
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 # Plugins
-gems:      [jekyll-paginate]
+whitelist: []
+plugins:
+  - jekyll-paginate-v2
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
