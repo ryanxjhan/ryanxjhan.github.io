@@ -1,14 +1,14 @@
 # Site Settings
-title: "Hello. I'm Jami Gibbs."
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
+title: "Hello. I'm Gang Yao."
+description: "I'm a Master of Engineering student at UC Berkeley focused on Visual Computing and Computer Graphics, also an upcoming Amazon software developer."
 url: 'https://gyao96.github.io' # the base hostname & protocol for your site
 nav: "true"
-footer_text: '© 2016 Jami Gibbs'
-twitter: 'jamigibbs'
-github: 'jamigibbs'
-medium: 'blog.jamigibbs.com'
+footer_text: 'Site Design Credit to © 2018 Jami Gibbs'
+twitter: 'gangyao6'
+github: 'gyao96'
+medium: 'gyao961@gmail.com'
 
 # Admin Settings
-admin_name: 'Jami Gibbs'
-admin_email: 'jami0821@gmail.com'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+admin_name: 'Gang Yao'
+admin_email: 'gyao961@gmail.com'
+google_analytics: "UA-172631252-1" # Update with your own tracking ID
