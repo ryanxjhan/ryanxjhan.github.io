@@ -26,7 +26,6 @@ medium_username: 'blog.jamigibbs.com'
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 # Plugins
-whitelist: []
 gems:      [jekyll-paginate]
 
 ############################################################
