@@ -17,7 +17,7 @@ title: "Hello. I'm Jami Gibbs."
 email: 'jami0821@gmail.com'
 description: "I'm a software developer and designer from Chicago creating useful things for the web."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gyao96.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://gyao96.github.io/profile" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'jamigibbs'
 github_username: 'jamigibbs'
 medium_username: 'blog.jamigibbs.com'
@@ -25,9 +25,9 @@ medium_username: 'blog.jamigibbs.com'
 # Build settings
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
-gems: [jekyll-paginate]
-plugins:
-  - jekyll-paginate-v2
+# Plugins
+whitelist: []
+gems:      [jekyll-paginate]
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
