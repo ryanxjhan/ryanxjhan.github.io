@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Hello. I'm Gang Yao.</title>
+ <link href="https://gyao96.github.io/atom.xml" rel="self"/>
+ <link href="https://gyao96.github.io/"/>
+ <updated>2020-07-16T21:36:01-07:00</updated>
+ <id>https://gyao96.github.io</id>
+ <author>
+   <name>Gang Yao</name>
+   <email>gyao961@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>ISAACS</title>
+   <link href="https://gyao96.github.io/development/2020/05/08/isaacs.html"/>
+   <updated>2020-05-08T08:56:00-07:00</updated>
+   <id>https://gyao96.github.io/development/2020/05/08/isaacs</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Volumetric Cloud</title>
+   <link href="https://gyao96.github.io/development/2020/04/28/volumecloud.html"/>
+   <updated>2020-04-28T07:15:00-07:00</updated>
+   <id>https://gyao96.github.io/development/2020/04/28/volumecloud</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Parallel Tree Construction Acceleration</title>
+   <link href="https://gyao96.github.io/development/2020/04/23/cudatreelib.html"/>
+   <updated>2020-04-23T08:56:00-07:00</updated>
+   <id>https://gyao96.github.io/development/2020/04/23/cudatreelib</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Game Rubik</title>
+   <link href="https://gyao96.github.io/development/design/2019/06/24/playrubik.html"/>
+   <updated>2019-06-24T14:15:00-07:00</updated>
+   <id>https://gyao96.github.io/development/design/2019/06/24/playrubik</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello. I'm Gang Yao.</title>
+    <description>I'm a Master of Engineering student at UC Berkeley focused on Visual Computing and Computer Graphics, also an upcoming Amazon software developer.</description>
+    <link>https://gyao96.github.io/</link>
+    <atom:link href="https://gyao96.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Jul 2020 21:36:01 -0700</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2020 21:36:01 -0700</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>ISAACS</title>
+        <description>
+</description>
+        <pubDate>Fri, 08 May 2020 08:56:00 -0700</pubDate>
+        <link>https://gyao96.github.io/development/2020/05/08/isaacs.html</link>
+        <guid isPermaLink="true">https://gyao96.github.io/development/2020/05/08/isaacs.html</guid>
+        
+        <category>AR</category>
+        
+        <category>Unity3D</category>
+        
+        <category>Robotics</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Volumetric Cloud</title>
+        <description>
+</description>
+        <pubDate>Tue, 28 Apr 2020 07:15:00 -0700</pubDate>
+        <link>https://gyao96.github.io/development/2020/04/28/volumecloud.html</link>
+        <guid isPermaLink="true">https://gyao96.github.io/development/2020/04/28/volumecloud.html</guid>
+        
+        <category>Rendering</category>
+        
+        <category>Unity3D</category>
+        
+        <category>C#</category>
+        
+        <category>ComputeShader</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Parallel Tree Construction Acceleration</title>
+        <description>
+</description>
+        <pubDate>Thu, 23 Apr 2020 08:56:00 -0700</pubDate>
+        <link>https://gyao96.github.io/development/2020/04/23/cudatreelib.html</link>
+        <guid isPermaLink="true">https://gyao96.github.io/development/2020/04/23/cudatreelib.html</guid>
+        
+        <category>Rendering</category>
+        
+        <category>CUDA</category>
+        
+        <category>C/C++</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Game Rubik</title>
+        <description>
+</description>
+        <pubDate>Mon, 24 Jun 2019 14:15:00 -0700</pubDate>
+        <link>https://gyao96.github.io/development/design/2019/06/24/playrubik.html</link>
+        <guid isPermaLink="true">https://gyao96.github.io/development/design/2019/06/24/playrubik.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>Three.js</category>
+        
+        <category>Vue.js</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+  </channel>
+</rss>

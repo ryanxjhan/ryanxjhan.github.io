@@ -10,6 +10,7 @@
     <link rel="icon" href="{{"/img/favicon.png" | relative_url }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="stylesheet" href="{{ "/css/resume.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/css/toggle.css" | relative_url }}">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
   </head>
   <body>
@@ -17,7 +18,7 @@
       <div class="l-Wrapper l-Wrapper--reset@sm-down">
         <ul class="u-pullRight u-hidden@xs-down">
           <li>
-            <a class="Navbar-btn Navbar-btn--main" href="/assets/daddygang/GangYaoCV.pdf" target="_blank">Résumé
+            <a class="Navbar-btn Navbar-btn--main" href="/img/GangYao.pdf" target="_blank">Résumé
               <span>(pdf)</span>
             </a>
           </li>
@@ -36,11 +37,11 @@
           <a href="/" target="_blank">
             <h1 class="Title">
               <span class="u-shadow">
-                Gang<br>
-                Yao
+                {{ site.data.resume.first_name }}<br>
+                {{ site.data.resume.last_name }}
               </span>
               <span class="Title-sub">
-                EECS Student at UC Berkeley
+                {{ site.data.resume.name_title }}
               </span>
             </h1>
           </a>
@@ -49,9 +50,9 @@
           <div class="Profile-Pic">
             <img class="Pic-Gang" src="/img/Gang.jpg" alt="Gang">
           </div>
-          <div>Berkeley, CA</div>
-          <div><a class="u-link" href="tel:+13134550832" target="_blank">(+1)313-455-0832</a></div>
-          <div><a class="u-link" href="mailto:gyao96@berkeley.edu" target="_blank">gyao96@berkeley.edu</a></div>
+          <div>{{ site.data.resume.city }}</div>
+          <div><a class="u-link" href="tel:{{ site.data.resume.phone }}" target="_blank">{{ site.data.resume.phone }}</a></div>
+          <div><a class="u-link" href="mailto:{{ site.data.resume.email }}" target="_blank">{{ site.data.resume.email }}</a></div>
         </div>
       </div>
 
@@ -59,7 +60,7 @@
         <h2 class="l-Section-title h3 u-hidden@sm-down">Profile</h2>
         <div class="l-Section-content">
           <p>
-            I am a Master of Engineering student at UC Berkeley, with a concentration on Visual Computing and Computer Graphics. My primary career persuit is software engineering with a focus on vision systems and graphics. I am also curious about front-end technologies and had some professional experience building web applications. Always humble and love to learn new tech savvy stuff.
+            {{ site.data.resume.profile}}
           </p>
         </div>
       </section>
@@ -69,22 +70,22 @@
         <div class="l-Section-content">
           <ul>
             <li>
-              Extensive experience with <strong class="Tag">Image Processing</strong> and <strong class="Tag">Computer Vision</strong> algorithms and applications.
+              Proficient with <strong class="Tag">C++</strong>, <strong class="Tag">Python</strong> and <strong class="Tag">JavaScript</strong>.   
             </li>
             <li>
-              Familiarity with <strong class="Tag">OpenCV</strong>, both the <strong class="Tag">C++</strong> and <strong class="Tag">Python</strong> interface.
+              Extensive experience with <strong class="Tag">Image Processing</strong>, <strong class="Tag">Computer Graphics</strong> and <strong class="Tag">Virtual Reality</strong> projects and applications.
             </li>
             <li>
-              Professional experience with <strong class="Tag">Front-end Web Development</strong>, using <strong class="Tag">Vue.js</strong> or native <strong class="Tag">HTML/CSS</strong> with <strong class="Tag">Bootstrap</strong>. Proficient with <strong class="Tag">Javascript ES6</strong>.
+              Professional experience with <strong class="Tag">Front-end Web Development</strong>, using <strong class="Tag">Vue.js</strong> or native <strong class="Tag">HTML/CSS</strong>.
             </li>
             <li>
-              Knowledgeable about <strong class="Tag">Computer Graphics</strong>, <strong class="Tag">OpenGL/WebGL</strong>, <strong class="Tag">Three.js</strong> and <strong class="Tag">Graphics Design</strong> and <strong class="Tag">User Experience</strong>
+              Knowledgeable about <strong class="Tag">OpenGL</strong>, <strong class="Tag">Shaders</strong>, <strong class="Tag">3D modeling</strong> and <strong class="Tag">User Experience</strong>.
             </li>
             <li>
-              Proficient with <strong class="Tag">Version Control Systems</strong>.
+              Proficient with <strong class="Tag">GIT</strong>.
             </li>
             <li>
-              Entry level windows application development with <strong class="Tag">MFC</strong> and game development with <strong class="Tag">Unreal Engine 4</strong>.
+              Proficient with <strong class="Tag">Unity 3D</strong> and familiar with <strong class="Tag">Unreal Engine 4</strong>.
             </li>
           </ul>
         </div>
@@ -93,98 +94,7 @@
       <section class="l-Section">
         <h2 class="l-Section-title h3">Experience</h2>
         <div class="l-Section-content">
-          <h3>Front-end Developer Intern</h3>
-          <a class="u-link" href="http://www.magicsoft.me/" target="_blank">
-            FengDing Tech, Hangzhou, Zhejiang, China
-          </a>
-          <br> May 2019 - July 2019
-          <ul>
-            <li>
-              Worked on a cross platform commercial app dev project with as team of seven including one project manager, one software architect, one designer, two back-end engineer, one front-end engineer and me.
-            </li>
-            <li>
-              Implemented single page layout designs with Vue.js, and cross-page routing logic with Vue router. Delivered multiple components like picture pop-view, upload preview, input checking and scroll box.
-            </li>
-            <li>
-              Collaborated with the backend and intergrated server side API into the vue app. Tested and debugged the existing API codebase.
-            </li>
-            <li>
-              Communicating with customer representative and went through two rounds of iterative amendment process.
-            </li>
-          </ul>
-          <h3>Research Intern - Diffuse Optical Vessel Imaging</h3>
-          <a class="u-link" href="https://bme.mgh.harvard.edu/" target="_blank">
-            Nerual System Group @ Massachusetts General Hospital, Boston, MA
-          </a>
-          <br> November 2018 - April 2019 <br>
-          <div class="svg-wrapper">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a href="https://daddygang.github.io/DVP_Vessel_Finder/" target="_blank"><span class="spot"></span><strong>View Github Page</strong></a>
-              </div>
-            </svg>
-          </div>
-          <div class="svg-wrapper green">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a href="https://daddygang.github.io/DVP_Vessel_Finder/GradThesis.pdf" target="_blank"><span class="spot"></span><strong>View Grad Thesis</strong></a>
-              </div>
-            </svg>
-          </div>
-          <ul>
-            <li>
-              Conducted research on image enhancement to detect blood vessels based on diffuse optical imaging.
-            </li>
-            <li>
-              Built the image data acquisition hardware system, including Arduino control, laser-driver circuits and camera configuations.
-            </li>
-            <li>
-              Implemented Adaptive Frangi-Hessian Filtering algorithm with OpenCV(C++) to enhance vascular structure.
-            </li>
-            <li>
-              Integrated the system and built a windows MFC app as the end user interface.
-            </li>
-            <li>
-              Wrote Matlab programs to perform a series analysis including, wavelet coherence, cross correlation, transfer function, phase analysis on Cerebral Autoregulation.
-            </li>
-          </ul>
-
-          <h3>Research Intern - Laser Shadowgraph Video Analysis</h3>
-          <a class="u-link" href="https://www.eecs.umich.edu/optics/" target="_blank">
-            Optics & Photonics Laboratory - EECS @ University of Michigan, Ann Arbor, MI
-          </a> <br> July 2018 - October 2018 <br>
-          <div class="svg-wrapper">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a href="https://daddygang.github.io/Laser-Shadowgraph-Image-Processing/" target="_blank"><span class="spot"></span><strong>View Github Page</strong></a>
-              </div>
-            </svg>
-          </div>
-          <div class="svg-wrapper green">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a href="https://daddygang.github.io/Laser-Shadowgraph-Image-Processing/Resources/Laser_Shadowgraphy_Image_and_Ultrasound_Signal_Feature_Extraction.pdf" target="_blank"><span class="spot"></span><strong>View Report</strong></a>
-              </div>
-            </svg>
-          </div>
-          <ul>
-            <li>
-              Researched on the applications of ultrasound bubble extraction in non-invasive surgery.
-            </li>
-            <li>
-              Utilized the KNN background segmentation and image-processing techniques for prototyping our algorithm in OpenCV(Python) to identify each cluster of air bubbles.
-            </li>
-            <li>
-              Derived and implemented overlapping bubble counting algorithm that is robust against contour noise.
-            </li>
-            <li>
-              Implemented image denoising based on wavelet transform in Matlab.
-            </li>
-          </ul>
+          {% include resume-experiences.html %}
         </div>
       </section>
 
@@ -192,88 +102,28 @@
       <section class="l-Section">
         <h2 class="l-Section-title h3">Projects</h2>
         <div class="l-Section-content">
-          <h3>Course Project - Elliptical Traffic Sign Recognition</h3>
-          <a class="u-link" href="http://www.isee.zju.edu.cn/" target="_blank">
-            College of Information Science and Electronic Engineering @ Zhejiang University, China
-          </a><br> March 2018 - June 2018 <br>
-          <div class="svg-wrapper">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a href="https://daddygang.github.io/Elliptical-Traffic-Sign-Recognition/" target="_blank"><span class="spot"></span><strong>View Github Page</strong></a>
-              </div>
-            </svg>
-          </div>
-          <ul>
-            <li>
-              Implemented a fast ellipse detection(FED) algorithm in C++ for image segmentation to extract the area of interest.
-            </li>
-            <li>
-              Collected raw data using FED algorithm and trained a classification neural network with OpenCV(C++) ANN class. Test set precision 95.6%
-            </li>
-            <li>
-              Conducted simulation tests with Raspi 3b+ driven autonomous vehicle. Systematic single frame processing time less than 30ms - outperforming best of course history.
-            </li>
-          </ul>
-
-          <h3>Independent Project - 3D Rubik Cube Simulator</h3>
-            <div class="svg-wrapper">
-              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                <rect id="shape" height="40" width="150" />
-                <div id="text">
-                  <a href="https://github.com/DaddyGang/PlayRubikApp" target="_blank"><span class="spot"></span><strong>View Github Page</strong></a>
-                </div>
-              </svg>
-            </div>
-            <div class="svg-wrapper green">
-              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                <rect id="shape" height="40" width="150" />
-                <div id="text">
-                  <a href="https://play-rubik-cube.herokuapp.com/" target="_blank"><span class="spot"></span><strong>Try out the Demo</strong></a>
-                </div>
-              </svg>
-            </div>
-          <ul>
-            <li>
-              Implemented an interactive Rubik Cube simulation app with Three.js, hosted on vue-cli as the container. The game supports both mobile and desktop platform.
-            </li>
-          </ul>
-
-          <h3>Independent Project - Automating the WeChat Jump Game</h3>
-          <div class="svg-wrapper">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a href="https://daddygang.github.io/WeChat_JumpMaster/" target="_blank"><span class="spot"></span><strong>View Github Page</strong></a>
-              </div>
-            </svg>
-          </div>
-          <div class="svg-wrapper green">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a href="https://zhuanlan.zhihu.com/p/35527713" target="_blank"><span class="spot"></span><strong>View Zhihu Post</strong></a>
-              </div>
-            </svg>
-          </div>
-          <ul>
-            <li>
-              Designed a system that can play the WeChat Jump game all by itself, involving unique robotic arms interaction and self-developed image processing algorithms.
-            </li>
-          </ul>
-        </div>
+          {% include resume-projects.html %}
       </section>
 
       <section class="l-Section">
         <h2 class="l-Section-title h3">Education</h2>
         <div class="l-Section-content">
-          <h3>M.Eng | Electrical Engineering & Computer Science</h3>
-          <a class="u-link" href="https://eecs.berkeley.edu/academics/graduate/industry-programs/meng" target="_blank">University of California at Berkeley, CA</a> &nbsp&nbsp August 2019 - Present
-          <p>A full-time degree program that provides the technical expertise as well as the leadership and business skills in corperative practice. My concentration is Visual Computing and Computer Graphics, courses include User Experience Design and Virtual Reality.</p>
-          <h3>B.E. | Electrical Engineering</h3>
-          <a class="u-link" href="https://eecs.berkeley.edu/academics/graduate/industry-programs/meng" target="_blank">Zhejiang University, China</a>  &nbsp&nbsp September 2015 - July 2019
-          <p>A full-time degree program that provide undergraduate students with great flexibility in course choice. For the first two years, my focus is mathematical fundamentals, digital and analog circuits and embedded systems. For my junior and senior year, my focus is signal and image processing and computer vision applications.</p>
-
+          {% for edu in site.data.resume.educations %}
+          <h3>{{ edu.school_name }}</h3>
+          <a class="u-link" href="https://eecs.berkeley.edu/academics/graduate/industry-programs/meng" target="_blank">{{ edu.degree }}</a> 
+          <br> {{ edu.time }}
+          <div class="wrap-collabsible">
+            <input id="collapsible-{{ edu.school_name }}" class="toggle" type="checkbox">
+            <label for="collapsible-{{ edu.school_name }}" class="lbl-toggle">More Info</label>
+            <div class="collapsible-content">
+              <div class="content-inner">
+                <p>
+                  {{ edu.content }}
+                </p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
         </div>
       </section>
 
@@ -296,5 +146,19 @@
         </div>
       </div>
     </div>
+    <script>
+      let myLabels = document.querySelectorAll('.lbl-toggle');
+
+      Array.from(myLabels).forEach(label => {
+        label.addEventListener('keydown', e => {
+          // 32 === spacebar
+          // 13 === enter
+          if (e.which === 32 || e.which === 13) {
+            e.preventDefault();
+            label.click();
+          };
+        });
+      });
+    </script>
   </body>
 </html>

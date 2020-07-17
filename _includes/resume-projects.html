@@ -1,0 +1,48 @@
+{% for proj in site.data.resume.projects %}
+<h3>{{ proj.position }}</h3>
+{% if proj.location != '' %}
+<a class="u-link" href="{{ proj.positionlink }}" target="_blank">
+  {{ proj.location }}
+</a>
+{% endif %}
+{% if proj.time != '' %}
+<br> {{proj.time}} <br>
+{% endif %}  
+<div class="svg-wrapper">
+    {% if proj.github != '' %}
+    <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+        <rect id="shape" height="40" width="150" />
+        <div id="text">
+            <a href="{{ proj.github }}" target="_blank"><span class="spot"></span><strong>{{ proj.github_caption }}</strong></a>
+        </div>
+    </svg>
+    {% endif %}
+</div>
+{% if proj.paper != '' %}
+<div class="svg-wrapper green">
+    <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+        <rect id="shape" height="40" width="150" />
+        <div id="text">
+            <a href="{{ proj.paper }}" target="_blank"><span class="spot"></span><strong>{{ proj.paper_caption }}</strong></a>
+        </div>
+    </svg>
+</div>
+{% endif %}
+
+<div class="wrap-collabsible">
+    <input id="collapsible-{{ proj.position }}" class="toggle" type="checkbox">
+    <label for="collapsible-{{ proj.position }}" class="lbl-toggle">More Info</label>
+    <div class="collapsible-content">
+      <div class="content-inner">
+        <ul>
+            {% for entry in proj.contents %}
+            <li>
+              {{ entry }}
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+{% endfor %}

@@ -1,0 +1,26 @@
+{% for exp in site.data.resume.experiences %}
+<h3>{{ exp.position }}</h3>
+<a class="u-link" href="{{ exp.positionlink }}" target="_blank">
+  {{ exp.location }}
+</a>
+<br> {{exp.time}}
+
+<div class="wrap-collabsible">
+  <input id="collapsible-{{ exp.position }}" class="toggle" type="checkbox">
+  <label for="collapsible-{{ exp.position }}" class="lbl-toggle">More Info</label>
+  <div class="collapsible-content">
+    <div class="content-inner">
+      <ul>
+        {% for entry in exp.contents %}
+        <li>
+          {{ entry }}
+        </li>
+        {% endfor %}
+    </ul>
+    </div>
+  </div>
+</div>
+
+
+
+{% endfor %}
