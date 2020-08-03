@@ -1,14 +1,14 @@
 # Site Settings
-title: "Hello. I'm Gang Yao."
-description: "I'm a Master of Engineering student at UC Berkeley focused on Visual Computing and Computer Graphics, also an upcoming Amazon software developer."
-url: 'https://gyao96.github.io' # the base hostname & protocol for your site
+title: "Hello. I'm Ryan Han."
+description: "I'm an aspiring data scientist extracting meaningful insights from data."
+url: 'https://ryanxjhan.github.io' # the base hostname & protocol for your site
 nav: "true"
-footer_text: 'Site Design Credit to © 2018 Jami Gibbs'
-twitter: 'gangyao6'
-github: 'gyao96'
-medium: 'gyao961@gmail.com'
+footer_text: '© 2020 Ryan Han'
+twitter: 'ryanxjhan'
+github: 'ryanxjhan'
+medium: 'ryan.han@uwaterloo.ca'
 
 # Admin Settings
-admin_name: 'Gang Yao'
-admin_email: 'gyao961@gmail.com'
+admin_name: 'Ryan Han'
+admin_email: 'ryan.han@uwaterloo.ca'
 google_analytics: "UA-172631252-1" # Update with your own tracking ID

@@ -1,23 +1,17 @@
-first_name: "Gang"
-last_name: "Yao"
-name_title: "EECS Student at UC Berkeley"
-city: "Seattle, WA"
-phone: "+1 313-455-0832"
-email: "gyao961@gmail.com"
+first_name: "Ryan"
+last_name: "Han"
+name_title: "Data Analyst/Data Scientist/Data Engineer"
+city: "Waterloo, ON"
+phone: "+1 226-220-4030"
+email: "ryan.han@uwaterloo.ca"
 profile:
     "I am a Master of Engineering student at UC Berkeley, with a concentration on Visual Computing and Computer Graphics. My primary career persuit is software engineering with a focus on vision systems and graphics. I am also curious about front-end technologies and had some professional experience building web applications. Always humble and love to learn new tech savvy stuff."
 
 educations:
-  - school_name: University of California at Berkeley
-    link: https://eecs.berkeley.edu/academics/graduate/industry-programs/meng
-    degree: 'Master of Engineering | Electrical Engineering & Computer Science | GPA: 3.86/4.00'
-    time: August 2019 - May 2020
+  - school_name: University of Waterloo
+    degree: 'Bachelor of Mathematics | Statistics and Psychology'
+    time: Sep 2016 - Jan 2021
     content: A full-time degree program that provides the technical expertise as well as the leadership and business skills in corperative practice. My concentration is Visual Computing and Computer Graphics, courses include User Experience Design and Virtual Reality.
-  - school_name: Zhejiang University, China
-    link: http://www.isee.zju.edu.cn/
-    degree: 'Bachelor of Engineering | Electronic Science & Technology | GPA: 3.92/4.00'
-    time: September 2015 - July 2019
-    content: A full-time degree program that provide undergraduate students with great flexibility in course choice. For the first two years, my focus is mathematical fundamentals, digital and analog circuits and embedded systems. For my junior and senior year, my focus is signal and image processing and computer vision applications.
 
 experiences:
   - position: Software Development Engineer
