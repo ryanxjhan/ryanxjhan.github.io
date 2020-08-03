@@ -4,9 +4,9 @@ description: "I'm an aspiring data scientist extracting meaningful insights from
 url: 'https://ryanxjhan.github.io' # the base hostname & protocol for your site
 nav: "true"
 footer_text: '© 2020 Ryan Han'
-twitter: 'ryanxjhan'
-github: 'ryanxjhan'
-medium: 'ryan.han@uwaterloo.ca'
+linkedin: 'ryanxjhan'
+kaggle: 'ryanxjhan'
+resume: 'true'
 
 # Admin Settings
 admin_name: 'Ryan Han'
