@@ -34,7 +34,7 @@ permalink: /about/
 
 * Taught math to children living in poverty.
 * Helped to build schools for children in rural China.
-* Organized Chinese Red Cross events helping children.
+* Organized Chinese Red Cross events that helps children to get better a education.
 
 
 
