@@ -8,21 +8,12 @@ permalink: /about/
 
 ### Personality: [INPT-A](https://www.16personalities.com/profiles/142e9ccb7ed1a)
 
-**Strengths**
-
-* Abstract Thinkers
-* Open-Minded
-* Enthusiastic
-* Objective
-
-  
-
-**Weakness**
-
-* Private and Withdrawn 
-* Second-guess Myself
-* Absent-minded
-* Loathe Conventions and Guidelines
+| **Strengths**      | **Weakness**        |
+| ------------------ |:-------------------:|
+| Abstract Thinkers  | Private             |
+| Open-Minded        | Second-guess Myself |
+| Enthusiastic       | Absent-minded       |
+| Objective          | Dislike Conventions |
 
 ### Social Causes
 
@@ -38,6 +29,10 @@ permalink: /about/
 * Believe that AI should only be used for the public good.
 * Believe that AI should be regulated with proper laws.
 * Believe that AI should be unbiased.
+
+**Fair and Equal Education for Children**
+
+* 
 
 
 
