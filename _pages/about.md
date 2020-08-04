@@ -32,7 +32,9 @@ permalink: /about/
 
 **Fair and Equal Education for Children**
 
-* 
+* Taught math to children living in poverty.
+* Helped to build schools for children in rural China.
+* Organized Chinese Red Cross events helping children.
 
 
 
