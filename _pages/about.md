@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## About Me
-
+---
 ### Personality: [INPT-A](https://www.16personalities.com/profiles/142e9ccb7ed1a)
 
 | **Strengths**      | **Weakness**        |
