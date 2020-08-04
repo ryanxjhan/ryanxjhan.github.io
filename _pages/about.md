@@ -5,7 +5,6 @@ permalink: /about/
 ---
 
 ## About Me
----
 
 ### Personality: [INPT-A](https://www.16personalities.com/profiles/142e9ccb7ed1a)
 
@@ -16,8 +15,9 @@ permalink: /about/
 | Enthusiastic       | Absent-minded       |
 | Objective          | Dislike Conventions |
 
-### Social Causes
 ---
+
+### Social Causes
 
 **COVID-19 Awareness Initiative**
 
