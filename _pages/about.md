@@ -11,11 +11,8 @@ permalink: /about/
 **Strengths**
 
 * Abstract Thinkers
-
 * Open-Minded
-
 * Enthusiastic
-
 * Objective
 
   
