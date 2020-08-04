@@ -10,12 +10,12 @@ permalink: /about/
 
 [INPT-A](https://www.16personalities.com/profiles/142e9ccb7ed1a)
 
-| **Strengths**      | **Weakness**        |
-| ------------------ |:-------------------:|
-| Abstract Thinkers  | Private             |
-| Open-Minded        | Second-guess Myself |
-| Enthusiastic       | Absent-minded       |
-| Objective          | Dislike Conventions |
+| **Strengths**     |   **Weaknesses**    |
+| ----------------- | :-----------------: |
+| Abstract Thinkers |       Private       |
+| Open-Minded       | Second-guess Myself |
+| Enthusiastic      |    Absent-minded    |
+| Objective         | Dislike Conventions |
 
 ---
 
