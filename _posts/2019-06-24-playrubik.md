@@ -8,7 +8,7 @@ tags: WaveNet
 featured_image: '/img/posts/04-rubik.png'
 project_link: 'example.com'
 button_icon: 'github'
-button_text: 'Code'
+button_text: 'Visit Project'
 lead_text: "Identify the number of channels open at each time point"
 ---
 
