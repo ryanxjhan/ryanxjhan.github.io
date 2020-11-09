@@ -5,28 +5,7 @@ city: "Waterloo, ON"
 phone: "+1 226-220-4030"
 email: "ryan.han@uwaterloo.ca"
 profile:
-    "I am a Master of Engineering student at UC Berkeley, with a concentration on Visual Computing and Computer Graphics. My primary career persuit is software engineering with a focus on vision systems and graphics. I am also curious about front-end technologies and had some professional experience building web applications. Always humble and love to learn new tech savvy stuff."
-
-educations:
-  - school_name: University of Waterloo
-    degree: 'Bachelor of Mathematics | Statistics and Psychology'
-    time: Sep 2016 - Jan 2021
-    content: A full-time degree program that provides the technical expertise as well as the leadership and business skills in corperative practice. My concentration is Visual Computing and Computer Graphics, courses include User Experience Design and Virtual Reality.
-
-experiences:
-  - position: Software Development Engineer
-    positionlink: https://www.amazon.jobs/en/landing_pages/aws-identity
-    location: AWS Identity, Seattle, WA
-    time: July 2020 - Present
-    contents:
-        - Work on user identity and permission management for all AWS services.
-  - position: Front-end Developer Intern
-    positionlink: http://www.magicsoft.me/
-    location: FengDing Tech, Hangzhou, Zhejiang, China
-    time: May 2019 - July 2019
-    contents: 
-        - Worked on a cross platform commercial app dev project with as team of seven.
-        - Implemented single page layout designs with Vue.js, and cross-page routing logic with Vue router. Delivered multiple components like picture pop-view, upload preview, input checking and scroll box.
+    "IBM certified data scientist with 4+ years of experience in machine learning. Industry-level experience with the latest techonology such as LightGBM and WaveNet. Strong foundation in mathematics and statistics."
 
 projects:
   - position: Research Intern - Diffuse Optical Vessel Imaging
@@ -90,3 +69,24 @@ projects:
     contents:
         - Designed a system that can play the WeChat Jump game all by itself, involving unique robotic arms interaction and self-developed image processing algorithms.
 
+experiences:
+  - position: Software Development Engineer
+    positionlink: https://www.amazon.jobs/en/landing_pages/aws-identity
+    location: AWS Identity, Seattle, WA
+    time: July 2020 - Present
+    contents:
+        - Work on user identity and permission management for all AWS services.
+  - position: Front-end Developer Intern
+    positionlink: http://www.magicsoft.me/
+    location: FengDing Tech, Hangzhou, Zhejiang, China
+    time: May 2019 - July 2019
+    contents: 
+        - Worked on a cross platform commercial app dev project with as team of seven.
+        - Implemented single page layout designs with Vue.js, and cross-page routing logic with Vue router. Delivered multiple components like picture pop-view, upload preview, input checking and scroll box.
+
+
+educations:
+  - school_name: University of Waterloo
+    degree: 'Bachelor of Mathematics | Statistics'
+    time: Sep 2016 - Dec 2020
+    content: Final-year GPA 82%
