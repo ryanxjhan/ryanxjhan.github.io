@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: right
-title: 'AI Learns Space Invader: DQN'
+title: 'AI Learns to Play Space Invader: DQN'
 date: 2018-01-02 21:15:00
 categories: data science
 tags: ReinforcementLearning DQN Game
