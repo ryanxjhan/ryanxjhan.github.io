@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'AI Learns Space Invader: DQN'
 date: 2018-01-02 21:15:00
 categories: data science
