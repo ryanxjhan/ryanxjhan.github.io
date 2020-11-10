@@ -72,12 +72,12 @@ projects:
 experiences:
 
   - position: Data Science Intern 
-    positionlink: http://www.robot7009.cn/
-    location: Robot Automation Techonology, Shenyang, Liaoning, China
-    time: May 2018 - Aug 2018
-    contents: 
-        - Worked on a cross platform commercial app dev project with as team of seven.
-        - Implemented single page layout designs with Vue.js, and cross-page routing logic with Vue router. Delivered multiple components like picture pop-view, upload preview, input checking and scroll box.
+  positionlink: http://www.robot7009.cn/
+  location: Robot Automation Techonology, Shenyang, Liaoning, China
+  time: May 2018 - Aug 2018
+  contents: 
+      - Worked on a cross platform commercial app dev project with as team of seven.
+      - Implemented single page layout designs with Vue.js, and cross-page routing logic with Vue router. Delivered multiple components like picture pop-view, upload preview, input checking and scroll box.
 
     - position: Junior Data Scientist
     positionlink: https://www.linkedin.com/company/tabnex/
