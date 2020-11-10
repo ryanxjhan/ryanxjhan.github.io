@@ -8,37 +8,37 @@ profile:
     "IBM certified data scientist with 4+ years of experience in machine learning. Industry-level experience with the latest techonology such as LightGBM and WaveNet. Strong foundation in mathematics and statistics."
 
 projects:
-  - position: Research Intern - Diffuse Optical Vessel Imaging
-    positionlink: https://bme.mgh.harvard.edu/
-    location: Nerual System Group @ Massachusetts General Hospital, Boston, MA
-    time: November 2018 - April 2019
-    github: https://gyao96.github.io/DVP_Vessel_Finder/
+  - position: Ion Channels Prediction
+    positionlink: https://www.kaggle.com/c/liverpool-ion-switching
+    location: University of Livepool, Kaggle
+    time: Feb 2020 - April 2020
+    github: https://github.com/ryanxjhan/Predicting-Open-Ion-Channels-WaveNet
     github_caption: View Github Page
-    paper: https://gyao96.github.io/DVP_Vessel_Finder/GradThesis.pdf
-    paper_caption: View Thesis
+    paper: "https://medium.com/"
+    paper_caption: View Publication
     contents:
         - Conducted research on image enhancement to detect blood vessels based on diffuse optical imaging.
         - Built the image data acquisition hardware system, including Arduino control, laser-driver circuits and camera configuations.
         - Implemented Adaptive Frangi-Hessian Filtering algorithm with OpenCV(C++) to enhance vascular structure.
 
-  - position: Research Intern - Laser Shadowgraph Video Analysis
-    positionlink: https://www.eecs.umich.edu/optics/
-    location: Optics & Photonics Laboratory - EECS @ University of Michigan, Ann Arbor, MI
-    time: July 2018 - October 2018
+  - position: Walmart Daily Sales Forecast
+    positionlink: https://www.kaggle.com/c/m5-forecasting-accuracy
+    location: Univeristy of Nicosia, Kaggle
+    time: May 2020 - July 2020
     github: https://gyao96.github.io/Laser-Shadowgraph-Image-Processing/
     github_caption: View Github Page
-    paper: "https://gyao96.github.io/Laser-Shadowgraph-Image-Processing/Resources/Laser_Shadowgraphy_Image_and_Ultrasound_Signal_Feature_Extraction.pdf"
-    paper_caption: View Paper
+    paper: "https://medium.com/"
+    paper_caption: View Publication
     contents:
         - Researched on the applications of ultrasound bubble extraction in non-invasive surgery.
         - Utilized the KNN background segmentation and image-processing techniques for prototyping our algorithm in OpenCV(Python) to identify each cluster of air bubbles.
         - Implemented image denoising based on wavelet transform in Matlab.
 
-  - position: Course Project - Elliptical Traffic Sign Recognition
+  - position: AI Learns to Play Space Invader
     positionlink: http://www.isee.zju.edu.cn/
     location: College of Information Science and Electronic Engineering @ Zhejiang University, China
-    time: March 2018 - June 2018
-    github: https://gyao96.github.io/Elliptical-Traffic-Sign-Recognition/
+    time: May 2019 - July 2019
+    github: https://github.com/ryanxjhan/AI-Space-Invader
     github_caption: View Github Page
     paper: ""
     paper_caption:
