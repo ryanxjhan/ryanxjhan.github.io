@@ -70,23 +70,24 @@ projects:
         - Designed a system that can play the WeChat Jump game all by itself, involving unique robotic arms interaction and self-developed image processing algorithms.
 
 experiences:
-  - position: Software Development Engineer
-    positionlink: https://www.amazon.jobs/en/landing_pages/aws-identity
-    location: AWS Identity, Seattle, WA
-    time: July 2020 - Present
-    contents:
-        - Work on user identity and permission management for all AWS services.
-  - position: Front-end Developer Intern
-    positionlink: http://www.magicsoft.me/
-    location: FengDing Tech, Hangzhou, Zhejiang, China
-    time: May 2019 - July 2019
+
+  - position: Data Science Intern 
+    positionlink: http://www.robot7009.cn/
+    location: Robot Automation Techonology, Shenyang, Liaoning, China
+    time: May 2018 - Aug 2018
     contents: 
         - Worked on a cross platform commercial app dev project with as team of seven.
         - Implemented single page layout designs with Vue.js, and cross-page routing logic with Vue router. Delivered multiple components like picture pop-view, upload preview, input checking and scroll box.
 
+    - position: Junior Data Scientist
+    positionlink: https://www.linkedin.com/company/tabnex/
+    location: Tabnex, Waterloo, ON, Canada
+    time: Jan 2018 - Mar 2018
+    contents:
+        - Worked on data collection and predictive modelling.
 
 educations:
   - school_name: University of Waterloo
-    degree: 'Bachelor of Mathematics | Statistics'
+    degree: 'Bachelor of Mathematics | Statistics, Honours'
     time: Sep 2016 - Dec 2020
     content: Final-year GPA 82%
