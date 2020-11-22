@@ -17,9 +17,10 @@ projects:
     paper: "https://medium.com/"
     paper_caption: View Publication
     contents:
-        - Conducted research on image enhancement to detect blood vessels based on diffuse optical imaging.
-        - Built the image data acquisition hardware system, including Arduino control, laser-driver circuits and camera configuations.
-        - Implemented Adaptive Frangi-Hessian Filtering algorithm with OpenCV(C++) to enhance vascular structure.
+        - Predicted the number of open ion channels present (an essential component of the nervous system), based on electrical properties of biological cells.
+        - Extracted meaningful information by applying denoising methods such as wavelet and average smoothing.
+        - Built a pipeline that normalizes and adujsts features through Random Forest Classifier that leads to superior results.
+        - Tuned and ensembled a series of WaveNet models, which achieved an accuracy (F1-score) of 94.4%.
 
   - position: Walmart Daily Sales Forecast
     positionlink: https://www.kaggle.com/c/m5-forecasting-accuracy
@@ -35,8 +36,8 @@ projects:
         - Implemented image denoising based on wavelet transform in Matlab.
 
   - position: AI Learns to Play Space Invader
-    positionlink: http://www.isee.zju.edu.cn/
-    location: College of Information Science and Electronic Engineering @ Zhejiang University, China
+    positionlink: ""
+    location: ""
     time: May 2019 - July 2019
     github: https://github.com/ryanxjhan/AI-Space-Invader
     github_caption: View Github Page
@@ -47,14 +48,14 @@ projects:
         - Collected raw data using FED algorithm and trained a classification neural network with OpenCV(C++) ANN class. Test set precision 95.6%.
         - Conducted simulation tests with Raspi 3b+ driven autonomous vehicle. Systematic single frame processing time less than 30ms - outperforming best of course history.
 
-  - position: Independent Project - 3D Rubik Cube Simulator
+  - position: COVID-19 News Articles Open Research Dataset
     positionlink: ''
     location: ''
-    time: ''
-    github: https://github.com/gyao96/PlayRubikApp
-    github_caption: View Github Page
-    paper: "https://play-rubik-cube.herokuapp.com/"
-    paper_caption: Try out the Demo
+    time: March 2020 - Present
+    github: https://www.kaggle.com/ryanxjhan/cbc-news-coronavirus-articles-march-26
+    github_caption: View Kaggle Page
+    paper: ""
+    paper_caption:
     contents:
         - Implemented an interactive Rubik Cube simulation app with Three.js, hosted on vue-cli as the container. The game supports both mobile and desktop platform.
 
