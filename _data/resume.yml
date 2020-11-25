@@ -58,21 +58,21 @@ projects:
     paper: "https://medium.com/"
     paper_caption: View Notes
     contents:
-        - Collected high granular data regarding millions of wines using distributed crawler (Scrapy & Redis)
+        - Collected high granular data regarding millions of wines using distributed crawler (Scrapy & Redis)  
         - Built a highly effective & efficient search engine using Elasticsearch
-        - Developed website using Flask, Bootstrap and SQLAlchemy with features such as search and add
+        - Developed website using Flask, Bootstrap and SQLAlchemy with features such as search and modify wine data
 
   - position: COVID-19 News Articles Open Research Dataset
     positionlink: ""
-    location: "Kaggle"
+    location: "Kaggle Silver Medal"
     time: March 2020 - Present
     github: https://www.kaggle.com/ryanxjhan/cbc-news-coronavirus-articles-march-26
     github_caption: View Kaggle Page
-    paper: ""
-    paper_caption:
+    paper: "https://www.kaggle.com/ryanxjhan/cbc-news-coronavirus-articles-march-26"
+    paper_caption: Download Dataset
     contents:
-        - 
-        
+        - In response to the COVID-19 Pandemic, over 7,000 news articles regarding
+
 experiences:
 
   - position: Data Science Intern 
