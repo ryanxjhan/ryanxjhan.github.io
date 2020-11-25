@@ -82,15 +82,14 @@ experiences:
     location: Robot Automation Techonology, Shenyang, Liaoning, China
     time: May 2018 - Aug 2018
     contents: 
-        - 
-        - 
+        - Example text
 
   - position: Velocity Resident
     positionlink: https://velocity.uwaterloo.ca/
     location: Velocity Garage, Waterloo, ON, Canada
     time: Jan 2018 - Mar 2018
     contents:
-        - Worked on data collection and predictive modelling.
+        - Example text
 
 educations:
   - school_name: University of Waterloo
