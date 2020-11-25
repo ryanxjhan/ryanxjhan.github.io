@@ -48,8 +48,19 @@ projects:
         - Preprocessed images of various game states through greyscaling and downscaling.
         - Stored preprocessed states into core data structure 
         - Trained Deep-Q Network with randomly selected data from core and updated policy accordingly.
-
-
+  
+   - position: Wine Search Engine & Database
+    positionlink: ""
+    location: Waterloo, ON
+    time: Sep 2018 - Dec 2018
+    github: https://github.com/ryanxjhan/rotten-grapes-1.0
+    github_caption: View Github Page
+    paper: "https://medium.com/"
+    paper_caption: View Notes
+    contents:
+        - Collected high granular data regarding millions of wines using distributed crawler (Scrapy & Redis)
+        - Built a highly effective & efficient search engine using Elasticsearch
+        - Developed website using Flask, Bootstrap and SQLAlchemy with features such as search and add
 
   - position: COVID-19 News Articles Open Research Dataset
     positionlink: ""
@@ -60,19 +71,8 @@ projects:
     paper: ""
     paper_caption:
     contents:
-        - Implemented an interactive Rubik Cube simulation app with Three.js, hosted on vue-cli as the container. The game supports both mobile and desktop platform.
-
-  - position: Independent Project - Automating the WeChat Jump Game
-    positionlink: ''
-    location: ''
-    time: ''
-    github: https://gyao96.github.io/WeChat_JumpMaster/
-    github_caption: View Github Page
-    paper: "https://zhuanlan.zhihu.com/p/35527713"
-    paper_caption: View Zhihu Post
-    contents:
-        - Designed a system that can play the WeChat Jump game all by itself, involving unique robotic arms interaction and self-developed image processing algorithms.
-
+        - 
+        
 experiences:
 
   - position: Data Science Intern 
