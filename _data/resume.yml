@@ -8,6 +8,7 @@ profile:
     "IBM certified data scientist with 4+ years of experience in machine learning. Industry-level experience with the latest techonology such as LightGBM and WaveNet. Strong foundation in mathematics and statistics."
 
 projects:
+
   - position: Ion Channels Prediction
     positionlink: https://www.kaggle.com/c/liverpool-ion-switching
     location: University of Livepool
