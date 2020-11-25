@@ -50,7 +50,7 @@ projects:
         - Stored preprocessed states into core data structure 
         - Trained Deep-Q Network with randomly selected data from core and updated policy accordingly.
   
-   - position: Wine Search Engine & Database
+  - position: Wine Search Engine & Database
     positionlink: ""
     location: Waterloo, ON
     time: Sep 2018 - Dec 2018
