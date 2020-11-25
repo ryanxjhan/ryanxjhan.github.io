@@ -82,8 +82,8 @@ experiences:
     location: Robot Automation Techonology, Shenyang, Liaoning, China
     time: May 2018 - Aug 2018
     contents: 
-        - Worked on a cross platform commercial app dev project with as team of seven.
-        - Implemented single page layout designs with Vue.js, and cross-page routing logic with Vue router. Delivered multiple components like picture pop-view, upload preview, input checking and scroll box.
+        - 
+        - 
 
   - position: Velocity Resident
     positionlink: https://velocity.uwaterloo.ca/
@@ -96,4 +96,4 @@ educations:
   - school_name: University of Waterloo
     degree: 'Bachelor of Mathematics | Statistics, Honours'
     time: Sep 2016 - Dec 2020
-    content: Final-year GPA 82%
+    content: Final undergraduate year standing 82%
