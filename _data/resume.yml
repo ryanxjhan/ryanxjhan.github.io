@@ -5,7 +5,7 @@ city: "Waterloo, ON"
 phone: "+1 226-220-4030"
 email: "ryan.han@uwaterloo.ca"
 profile:
-    "IBM certified data scientist with 4+ years of experience in machine learning. Industry-level experience with the latest techonology such as LightGBM and WaveNet. Strong foundation in mathematics and statistics."
+    "IBM certified data scientist with 4+ years of experience in machine learning. Industry-level experience with the latest technology such as LightGBM and WaveNet. Strong foundation in mathematics and statistics."
 
 projects:
 
@@ -20,8 +20,8 @@ projects:
     contents:
         - Predicted the number of open ion channels present (an essential component of the nervous system), based on electrical properties of biological cells.
         - Extracted meaningful information by applying denoising methods such as wavelet and average smoothing.
-        - Built a pipeline that normalizes and adujsts features through Random Forest Classifier that leads to superior results.
-        - Ensembled a series of optimized WaveNet models by o, which achieved a F1-score of 94.43% (Top 3%).
+        - Built a pipeline that normalizes and adjusts features through Random Forest Classifier that leads to superior results.
+        - Ensembled a series of optimized WaveNet models by o, which achieved an F1-score of 94.43% (Top 3%).
 
   - position: Walmart Daily Sales Forecast
     positionlink: https://www.kaggle.com/c/m5-forecasting-accuracy
@@ -32,7 +32,7 @@ projects:
     paper: "https://medium.com/"
     paper_caption: View Notes
     contents:
-        - Forecasted 28 days of hierarchical sales data and achieved a RMSSE of 0.666 (Top 7%).
+        - Forecasted 28 days of hierarchical sales data and achieved an RMSSE of 0.666 (Top 7%).
         - Used various feature engineering techniques such as aggregation and lag method to effectively generate and adjust features.
         - Optimized GBDT algorithm through LightGBM to achieve greater accuracy and avoid overfitting
 
@@ -45,9 +45,9 @@ projects:
     paper: "https://medium.com/"
     paper_caption: View Notes
     contents:
-        - This project is based on steps decribed in paper "Human-level Control Through Deep Reinforcement Learning".
+        - This project is based on steps described in research paper "Human-level Control Through Deep Reinforcement Learning".
         - Preprocessed images of various game states through greyscaling and downscaling.
-        - Stored preprocessed states into core data structure 
+        - Stored preprocessed states into the core data structure. 
         - Trained Deep-Q Network with randomly selected data from core and updated policy accordingly.
   
   - position: Wine Search Engine & Database
@@ -72,7 +72,7 @@ projects:
     paper: "https://www.kaggle.com/ryanxjhan/cbc-news-coronavirus-articles-march-26"
     paper_caption: Download Dataset
     contents:
-        - Over 7,000 news articles about COVID-19 pandemic was collected to mobilize NLP researchers.
+        - Over 7,000 news articles about the COVID-19 pandemic were collected to mobilize NLP researchers.
         - Awarded silver medal on Kaggle and reached 20,000 views and 2,000 downloads.
         - Crawler was built using Selenium, Beautiful Soup, etc
 
@@ -83,14 +83,17 @@ experiences:
     location: Robot Automation Techonology, Shenyang, Liaoning, China
     time: May 2018 - Aug 2018
     contents: 
-        - Example text
+        - Worked on cross-platform customer data management software
+        - Optimized facial recognition model, which has an F1-score of 97%
 
   - position: Velocity Resident
     positionlink: https://velocity.uwaterloo.ca/
     location: Velocity Garage, Waterloo, ON, Canada
     time: Jan 2018 - Mar 2018
     contents:
-        - Example text
+        - Connected with local entrepreneurs
+        - Attended seminars regarding entrepreneurship and AI
+        - Assisted startups with data collection and predictive modelling 
 
 educations:
   - school_name: University of Waterloo
