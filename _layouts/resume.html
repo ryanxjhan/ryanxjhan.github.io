@@ -128,6 +128,29 @@
         </div>
       </section>
 
+
+      <section class="l-Section">
+        <h2 class="l-Section-title h3">Certificates</h2>
+        <div class="l-Section-content">
+          {% for edu in site.data.resume.educations %}
+          <h3>{{ edu.school_name }}</h3>
+          <a class="u-link" href="https://coursera.org/share/9571c01af78a49f6d25dca75027a0646" target="_blank">{{ edu.degree }}</a> 
+          <br> {{ edu.time }}
+          <div class="wrap-collabsible">
+            <input id="collapsible-{{ edu.school_name }}" class="toggle" type="checkbox">
+            <label for="collapsible-{{ edu.school_name }}" class="lbl-toggle">More Info</label>
+            <div class="collapsible-content">
+              <div class="content-inner">
+                <p>
+                  {{ edu.content }}
+                </p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
       <section class="l-Section u-hidden@print">
         <h2 class="l-Section-title h3">Interests</h2>
         <div class="l-Section-content">
