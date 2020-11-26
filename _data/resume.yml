@@ -15,7 +15,7 @@ projects:
     time: Feb 2020 - April 2020
     github: https://github.com/ryanxjhan/Predicting-Open-Ion-Channels-WaveNet
     github_caption: View Github Page
-    paper: "https://medium.com/"
+    paper: "https://ryan-xj-han.medium.com/briefing-note-wavenet-time-series-forecasting-6e461e44b047"
     paper_caption: View Notes
     contents:
         - Predicted the number of open ion channels present (an essential component of the nervous system), based on electrical properties of biological cells.
