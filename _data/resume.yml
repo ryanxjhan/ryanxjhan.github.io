@@ -106,7 +106,4 @@ certificates:
   - school_name: Advanced Data Science with IBM
     degree: 'Four Courses Specialization'
     time: August 2019 - Sep 2019
-    content: Fundamentals of Scalable Data Science
-    Advanced Machine Learning and Signal Processing
-    Applied AI with DeepLearning
-    Advanced Data Science Capstone
+    content: Fundamentals of Scalable Data Science, Advanced Machine Learning and Signal Processing, Applied AI with Deep Learning, Advanced Data Science Capstone
