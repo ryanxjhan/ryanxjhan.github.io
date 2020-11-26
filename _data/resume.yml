@@ -21,7 +21,7 @@ projects:
         - Predicted the number of open ion channels present (an essential component of the nervous system), based on electrical properties of biological cells.
         - Extracted meaningful information by applying denoising methods such as wavelet and average smoothing.
         - Built a pipeline that normalizes and adjusts features through Random Forest Classifier that leads to superior results.
-        - Ensembled a series of optimized WaveNet models by o, which achieved an F1-score of 94.43% (Top 3%).
+        - Ensembled a series of optimized WaveNet models by voting, which achieved an F1-score of 94.43% (Top 3%).
 
   - position: Walmart Daily Sales Forecast
     positionlink: https://www.kaggle.com/c/m5-forecasting-accuracy
