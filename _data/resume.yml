@@ -78,14 +78,15 @@ projects:
 
 experiences:
 
-  - position: Data Science Intern 
-    positionlink: http://www.robot7009.cn/
-    location: Robot Automation Techonology, Shenyang, Liaoning, China
+  - position: Undergraduate Research Assistant
+    positionlink: 
+    location: Tsinghua University, Beijing, China 
     time: May 2018 - Aug 2018
     contents: 
-        - Worked on cross-platform customer data management software.
-        - Proprocessed facial images data with Pillow and Numpy.
-        - Optimized facial recognition model with TensorFlow and , which has an F1-score of 97%.
+        - Integrated and labeled data in different formats from a variety of data sources.
+        - Developed pipeline to effectively preprocess image files for training.
+        - Generated exploratory data analysis report.
+        - Learnt to optimize and apply machine learning methods.
 
   - position: Velocity Resident
     positionlink: https://velocity.uwaterloo.ca/
